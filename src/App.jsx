@@ -23,7 +23,8 @@ export default function App() {
   return (
     <div className='relative overflow-hidden h-screen bg-[#ffffff80]'>
       <video autoPlay loop muted className='absolute w-full h-full object-cover -z-10'>
-        <source src="/dist/background.mp4" type="video/mp4" />
+        <source src="/public/background.mp4" type="video/mp4" />
+        <img src="/public/deneme.jpeg" alt="deneme" />
       </video>
       <div className='container mx-auto'>
         <div>
