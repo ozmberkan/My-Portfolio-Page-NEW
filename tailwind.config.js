@@ -12,7 +12,7 @@ export default {
         'borderColor' : '#505052',
       },
       fontFamily: {
-        'lato': ['Lato', 'sans-serif'],
+        'noto': ['Noto Sans', 'sans-serif'],
       },
     },
   },
