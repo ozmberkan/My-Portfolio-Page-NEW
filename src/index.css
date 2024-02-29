@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply bg-black/90 text-textColor
+    @apply bg-black text-textColor
   }
 }
