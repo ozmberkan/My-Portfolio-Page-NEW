@@ -5,8 +5,8 @@ import { BsStars } from "react-icons/bs";
 export default function Navbar() {
     return (
         <div className='w-full flex justify-start items-center gap-x-[22px] group ' id='nav-bar '>
-            <button className='h-14 w-14 bg-bg rounded-lg bg-[#222124] flex justify-center items-center'><FaGithub size={20} /></button>
-            <button className='h-14 w-14 bg-bg rounded-lg bg-[#222124] flex justify-center items-center'><FaXTwitter size={20} /></button>
+            <a  href="https://github.com/ozmberkan" target='_blank' className='h-14 w-14 bg-bg rounded-lg bg-[#222124] flex justify-center items-center hover:bg-[#222124]/50 transition-colors'><FaGithub size={20} /></a>
+            <a href='https://twitter.com/berkannozm' target='_blank' className='h-14 w-14 bg-bg rounded-lg bg-[#222124] flex justify-center items-center hover:bg-[#222124]/50 transition-colors'><FaXTwitter size={20} /></a>
             <button className='h-14 w-14 bg-bg rounded-lg bg-[#222124] flex justify-center items-center'><BsStars size={20} /></button>
         </div >
     )
