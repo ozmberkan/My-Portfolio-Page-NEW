@@ -13,7 +13,7 @@ export default function App() {
   if (isMobile) {
     return (
       <>
-        <div className='w-full p-5 flex justify-center items-center ' id='main-container'>
+        <div className='w-full p-5 flex flex-col gap-y-5 justify-center items-center ' id='main-container'>
           <div className='w-full bg-[#0c0c0c] p-5 rounded-2xl border-2 border-[#222124] flex flex-col gap-y-10 mb-24' id='body-container'>
             <Navbar />
             <ProfileInfo />
