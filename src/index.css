@@ -6,5 +6,8 @@
   body {
     @apply bg-black text-textColor
   }
+  html{
+    scroll-behavior: smooth;
+  }
 }
 
